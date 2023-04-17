@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPlusCircle,FaFileImage,FaGift,FaPaperPlane } from "react-icons/fa";
+import { FaFileImage,FaGift,FaPaperPlane } from "react-icons/fa";
 
 const MessageSend = ({inputHendle,newMessage,sendMessage,emojiSend,ImageSend}) => {
  
@@ -17,12 +17,12 @@ const MessageSend = ({inputHendle,newMessage,sendMessage,emojiSend,ImageSend}) =
 
      <div className='message-send-section'>
           <input type="checkbox" id='emoji' />
-             <div className='file hover-attachment'>
+             {/* <div className='file hover-attachment'>
                   <div className='add-attachment'>
                          Add Attachment
                   </div>
                   <FaPlusCircle />
-                  </div>  
+                  </div>   */}
 
           <div className='file hover-image'>
                <div className='add-image'>
